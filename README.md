@@ -8,7 +8,7 @@
 
 You can provide us with any Tripadvisor URL, and we will return the results right away.
 
-## Python input code example
+### Python input code example
 
 The code example below shows an input code to be provided to the API.
 
@@ -36,7 +36,7 @@ response = requests.request(
 # JSON response with results.
 pprint(response.json())
 ```
-## Output example
+### Output example
 
 ```json
 {
