@@ -6,7 +6,7 @@
 
 ## How it works
 
-You can provide us any Tripadvisor URL and we will return the results right away.
+You can provide us with any Tripadvisor URL, and we will return the results right away.
 
 ## Python input code example
 
@@ -24,7 +24,7 @@ payload = {
     'geo_location': 'United States'
 }
 
-# Get response.
+# Get a response.
 response = requests.request(
     'POST',
     'https://realtime.oxylabs.io/v1/queries',
@@ -54,4 +54,6 @@ pprint(response.json())
 }
 ```
 
-If you have any questions please [email us](mailto:support@oxylabs.io) or drop a message via the live chat on our homepage.
+Tripadvisor Scraper API automates the bulk of the underlying processes and ensures a block-free experience. 
+
+If you have any questions, please [email us](mailto:support@oxylabs.io) or drop a message via the live chat on our homepage.
