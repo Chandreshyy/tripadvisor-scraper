@@ -57,3 +57,5 @@ pprint(response.json())
 Tripadvisor Scraper API automates the bulk of the underlying processes and ensures a block-free experience. 
 
 If you have any questions, please [email us](mailto:support@oxylabs.io) or drop a message via the live chat on our homepage.
+
+Also, check this tutorial on [pypi](https://pypi.org/project/Tripadvisor-scraper/)
